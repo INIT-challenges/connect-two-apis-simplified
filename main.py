@@ -1,8 +1,8 @@
 import sys
-
+from PyQt5.QtWidgets import QApplication, QWidget, QLineEdit, QFormLayout, QPushButton, QLabel
 import requests
 import json
-from PyQt5.QtWidgets import QApplication, QWidget, QLineEdit, QFormLayout, QPushButton, QLabel
+
 
 
 class Window(QWidget):
